@@ -9,14 +9,17 @@
     "res:dev": "rescript -w",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:app": "yarn res:build; yarn build; cp -r dist docs"
   },
   "dependencies": {
+    "@carbon/react": "1.33.0",
     "@rescript/core": "^0.6.0",
     "@rescript/react": "^0.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rescript": "^11.0.0"
+    "rescript": "^11.0.0",
+    "sass": "1.63.6"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",

@@ -1,3 +1,4 @@
+open CarbonReact
 @react.component
 let make = () => {
   let (count, setCount) = React.useState(() => 0)

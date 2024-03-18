@@ -8,6 +8,9 @@ import * as JsxRuntime from "react/jsx-runtime";
 import './styles/css/index.css'
 ;
 
+import './styles/css/carbon.scss'
+;
+
 var domElement = document.querySelector("#root");
 
 if (!(domElement == null)) {
